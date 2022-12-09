@@ -1,0 +1,22 @@
+.twelve{
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+   
+}
+.card-body2{
+   padding-left: 30px;
+   padding-right: 30px;
+   padding-top: 10px;
+}
+.card-body2 > a{
+    font-size: 20px;
+}
+.card1{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; 
+}
+@media screen and (max-width:500px){
+    .twelve{
+        position: absolute;
+        top: 16400px !important;
+    }
+}

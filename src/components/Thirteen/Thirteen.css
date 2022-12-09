@@ -1,0 +1,26 @@
+.thirteen > h2{
+    text-align: start;
+    padding-bottom: 20px;
+}
+.thirteen{
+    padding-left: 40px !important;
+    padding-right: 30px !important;
+}
+.card-body >h5{
+    padding-bottom: 20px;
+}
+.card3{
+    border: none;
+}
+@media screen and (max-width:500px){
+    .thirteen{
+        position: absolute;
+        top: 18350px !important;
+    }
+    .card3{
+        border: none;
+        padding-bottom: 20px;
+        border-bottom: 1px solid rgb(45, 119, 199);
+        padding-top: 10px;
+    }
+}

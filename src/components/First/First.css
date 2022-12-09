@@ -1,0 +1,40 @@
+.d-flex{
+    display: flex;
+    flex-direction: column !important;
+    gap: 5px;
+    align-items: flex-end;
+}
+.first-email {
+  color: rgb(39, 119, 240);
+  font-size: 18px;
+  border-bottom: 1px solid rgb(39, 119, 240);
+}
+
+.navbar-nav{
+    
+    font-size: 18px;
+    padding-bottom: 10px;
+    
+}
+.nav-link:hover{
+    
+    color: rgb(39, 119, 240) !important;
+    border-bottom: 1px solid rgb(39, 119, 240) ;
+}
+.nav-link{
+    color: black !important;
+    font-weight: 500 !important;
+    margin-right: 5px;
+}
+.first-phone{
+    font-size: 18px;
+}
+.navbar{
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 90px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+img{
+    width: 200px;
+}

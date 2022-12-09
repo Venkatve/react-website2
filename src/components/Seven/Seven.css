@@ -1,0 +1,45 @@
+.card5 > img{
+  width: 100px;
+  height: auto;
+}
+.card5{
+    width: 400px;
+    height: 300px;
+    margin-top: 50px;
+    
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.card5 > img{
+    margin-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.card-body5 > h4{
+    padding-bottom: 20px;
+}
+.seven{
+    background-color: rgb(230, 227, 227);
+    padding-left: 60px !important;
+    padding-right: 60px !important;
+}
+@media screen and (max-width:500px){
+    .seven{
+        position: absolute;
+        top: 8700px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .card5{
+        width: 350px;
+        height:auto;
+        margin-top: 50px;
+        
+        
+    }
+    .card5 > img{
+        width: 50px !important;
+        height: auto;
+      }
+    }

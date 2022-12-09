@@ -1,0 +1,102 @@
+.eight-content1{
+    display: flex;
+    background-color: rgb(43, 109, 160);
+    
+    flex-direction: column ;
+    
+    width: 400px;
+    height: 450px;
+    margin-top: 90px !important;
+    
+    border-radius: 15px;
+    color: white;
+}
+.eight-content2{
+    display: flex;
+    
+    
+    flex-direction: column ;
+    
+    width: 800px;
+    height: 500px;
+    margin-top: 90px !important;
+    margin-bottom: 100px;
+    border-radius: 15px;
+    color: white;
+}
+.eight{
+    width: 100%;
+    height: 600px;
+}
+.eight-content1 > h2{
+    padding-bottom: 90px !important;
+    padding-left: 40px;
+    padding-right: 20px;
+}
+
+.eight-content1 > h6{
+    padding-bottom: 30px !important;
+    text-align: justify;
+    line-height: 25px;
+    letter-spacing: 1px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 20px;
+    
+    
+}
+
+.contact-form > .form-field{
+    position: relative;
+    margin: 40px 0;
+}
+.form-field > .input-text{
+    display: block;
+    width: 100%;
+    height: 36px;
+    border-width: 0 0 2px 0;
+    border-color: gray;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;;
+}
+
+.label{
+    color: gray;
+    position: absolute;
+    left: 20px;
+    bottom: 11px;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+.form-field > .input-text:focus{
+    outline: none;
+}
+.form-field > .submit-btn{
+    display: inline-block;
+    letter-spacing: 2px;
+    font-size: 19px;
+    padding: 8px 16px;
+    border: none;
+    width: 200px;
+    cursor: pointer;
+    color: white;
+    text-transform: capitalize;
+    background-color: rgb(43, 109, 160)
+}
+@media screen and (max-width:500px){
+    .eight-content1{
+        position: absolute;
+        top: 10550px !important;
+    }
+    .eight-content2{
+        position: absolute;
+        top: 11000px !important;
+    }
+    .form-field > .input-text{
+        height: 10px;
+    }
+}

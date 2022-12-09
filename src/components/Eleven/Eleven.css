@@ -1,0 +1,93 @@
+.eleven-container{
+    width: 100%;
+    height: 500px;
+    
+    
+    
+}
+.eleven-text{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 90px !important;
+    padding-left: 70px !important;
+    padding-right: 20px !important;
+}
+.eleven-text > h2{
+    padding-bottom: 10px;
+}
+.eleven-text > p{
+ line-height: 28px;   
+}
+.eleven-content1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.icon{
+    height: 350px;
+    width: 35px !important;
+    margin-top: 60px;
+    
+    
+}
+.icon1{
+    height: 350px;
+    width: 35px !important;
+    margin-top: 60px;
+}
+.boxx{
+    width: 300px !important;
+    height: 400px !important;
+    
+    margin-top: 60px;
+}
+.boxx > img{
+    width: 300px !important;
+    height: 350px !important;
+}
+.boxx > h4{
+    text-align: center;
+    padding-top: 10px;
+}
+
+@media screen and (max-width:500px){
+    .eleven-container{
+        position: absolute;
+        top: 14750px !important;
+        height: 1600px;
+        
+        padding-right: 50px !important;
+        padding-left: 0px !important;
+    }
+    .boxx{
+        width: 270px !important;
+        height: 350px !important;
+        
+        padding-left: 80px;
+    }
+    .boxx > img{
+        width: 270px !important;
+        height: 350px !important;
+        padding-bottom: 20px;
+    }
+    .icon1{
+        height: 100px;
+        width: 70px !important;
+        margin-top: 830px;
+        
+    }
+    .icon{
+        height: 100px;
+        width: 70px !important;
+        margin-top: 830px;
+        
+    }
+    .boxx > h4{
+        padding-left: 70px;
+        padding-top: 10px;
+        z-index: 5;
+    }
+}
